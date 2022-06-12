@@ -1,0 +1,50 @@
+[
+    {
+        "Title" : "F6 key input",
+        "Type" : "input",
+        "SubType" : "keyboard",
+        "Key" : "F6",
+        "DeltaTime" : 0.0,
+        "CheckImage" : "a.png",
+        "Check" : {
+            "Bound" : [10, 10, 100, 100],
+            "Score" : 0.5
+        } 
+    },
+    {
+        "Title" : "mouse 100, 200 click",
+        "Type" : "input",
+        "SubType" : "mouse",
+        "Key" : "L",
+        "PosX" : 100,
+        "PosY" : 200,
+        "DeltaTime" : 1.0,
+        "CheckImage" : "a.png",
+        "Check" : {
+            "Bound" : [100, 100, 150, 150],
+            "Score" : 0.5
+        } 
+    },
+    {
+        "Title" : "debug command item acquire",
+        "Type" : "debug",
+        "Value" : "item acquire A",
+        "DeltaTime" : 0.5,
+        "CheckImage" : "a.png",
+        "Check" : {
+            "Bound" : [0, 0, 20, 20],
+            "Score" : 0.7
+        } 
+    },
+    {
+        "Title" : "debug command item acquire",
+        "Type" : "debug",
+        "Value" : "item acquire B",
+        "DeltaTime" : 0.5,
+        "CheckImage" : "a.png",
+        "Check" : {
+            "Bound" : [110, 110, 200, 200],
+            "Score" : 0.6
+        } 
+    }
+]
